@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initi+al-scale=1.0">
+    <title>Lojinha Virtual </title>
+</head>
+
+<body>
+    <header>
+        <selection>
+
+
+            <b>𝑅𝑎𝑖𝑛𝑏𝑜𝑤 𝐵𝑒𝑎𝑑𝑠</b> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Index.html"> <font color=black> Inicio </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Produtos.html"><font color=black> Produtos </font> </a>  &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Cadastro.html"><font color=black> Cadastro </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Tabela.html"><font color=black> Tabela de Preços </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+
+        </selection>
+     </header>
+    <center>
+
+        <hr>
+        
+        <img src="img/rainbow.jpeg">
+        
+        <section>
+
+            <h2>Quem somos?</h2>
+
+            <p>Somos uma empresa pequena porém com grandes sonhos, nossa empresa surgiu através de um grande hobby nosso, </p>
+            <p>o artesanato, então jutamos o útil ao agradável e criamos essa lojinha virtual para que as vendas e contato  </p>
+            <p>com os clientes fosse mais prático</p>
+
+            <!-- <p>Linguagem C</p>
+
+        <p>Java</p>
+        <p>Banco de dados</p>
+
+    </section>
+    <h1>𝑶𝒃𝒋𝒆𝒕𝒊𝒗𝒐𝒔</h1>
+    <section>
+        <p>Jovem Aprendiz</p>
+        <p>Conhecimento na área de trabalho</p> -->
+        </section>
+
+        <footer>
+            <section class=" controles">
+                <button id="acender"> <b>Modo Claro</b></button>
+                <button id="escuro"> <b> Modo Escuro</b></button> &nbsp; &nbsp;&nbsp;&nbsp; 
+                <a>Para mais informações nos mande um email: </a><a href="mailto:bolinha.arcoiris21@gmail.com?subject=Questions" title="">bolinha.arcoiris21@gmail.com</a>
+
+            </section>
+
+            
+        </footer>
+
+    </center>
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#acender").click(function () {
+            $("body").removeClass("escuro");
+            $("body").addClass("claro");
+        });
+        $("#escuro").click(function () {
+            $("body").removeClass("claro");
+            $("body").addClass("escuro");
+        });
+    });
+</script>
+
+
+</html>

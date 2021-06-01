@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initi+al-scale=1.0">
+    <title>Lojinha Virtual </title>
+</head>
+
+<body>
+    <header>
+        <selection>
+
+
+            <b>Tabela de preços</b> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="index.html"> <font color=black> Inicio </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Produtos.html"><font color=black> Produtos </font> </a>  &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Cadastro.html"><font color=black> Cadastro </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Tabela.html"><font color=black> Tabela de Preços </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+
+        </selection>
+    </header>
+    <center>
+
+        <hr>
+
+        <section>
+
+            <table  background="img/Fundo arco iris.png" border="1">
+                
+                    <tr>
+
+                        <th>Preço</th>
+
+                        <th>Produto</th>
+                    </tr>
+
+                    <tr>
+                        <td>Duo Pulseira "Girassol"</td>
+                        <td>R$ 12,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Trio Pulseira "Bengala doce"</td>
+                        <td>R$ 18,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Duo Pulseira "Esmeralda"</td>
+                        <td>R$ 12,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Duo Pulseira "Florzinhas"</td>
+                        <td>R$ 15,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Duo Pulseira "Melancia"</td>
+                        <td>R$ 12,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Trio Pulseira "Doce de Uva"</td>
+                        <td>R$ 18,00</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Duo Pulseira "Véu Branco"</td>
+                        <td>R$ 12,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Trio Pulseira "Meninas Super Poderosas"</td>
+                        <td>R$ 18,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Colar "Vanellope" 50cm</td>
+                        <td>R$ 20,00</td>
+                    </tr>
+                    <tr>
+                        <td>Trio Pulseira "Viúva negra"</td>
+                        <td>R$ 15,00</td>
+                    </tr>
+                    <tr>
+                        <td>Trio Pulseira "Jujubas do Sol"</td>
+                        <td>R$ 15,00</td>
+                    </tr>
+                    <tr>
+                        <td>Trio Pulseira "Céu Azul"</td>
+                        <td>R$ 18,00</td>
+                    </tr>
+                    <tr>
+                        <td>Trio Pulseira "Pequeno Urso"</td>
+                        <td>R$ 20,00</td>
+                    </tr>
+                    <tr>
+                        <td>Duo Pulseira "Tic Tac""</td>
+                        <td>R$ 18,00</td>
+                    </tr>
+               
+
+            </table>
+</section>
+
+        <footer>
+            <section class=" controles">
+                <button id="acender"> <b>Modo Claro</b></button>
+                <button id="escuro"> <b> Modo Escuro</b></button> &nbsp; &nbsp;&nbsp;&nbsp;
+            </section>
+
+
+        </footer>
+
+    </center>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#acender").click(function () {
+            $("body").removeClass("escuro");
+            $("body").addClass("claro");
+        });
+        $("#escuro").click(function () {
+            $("body").removeClass("claro");
+            $("body").addClass("escuro");
+        });
+    });
+</script>
+
+
+</html>

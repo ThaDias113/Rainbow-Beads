@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initi+al-scale=1.0">
+    <title>Lojinha Virtual </title>
+</head>
+
+<body>
+    <header>
+        <selection>
+
+            <b> Cadastro</b> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="index.html"> <font color=black> Inicio </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Produtos.html"><font color=black> Produtos </font> </a>  &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Cadastro.html"><font color=black> Cadastro </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="Tabela.html"><font color=black> Tabela de Preços </font> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+        </selection>
+    </header>
+    
+        <hr>
+       
+        <section>
+            <font background-color="#ff9ce1,#ffcc9c,#ffea9c,#9cff9e,#9cd2ff,#bca1ff,#ff9ce1">
+                <form action="Cadastro.html" method="post">
+
+                    <table>
+                        <tr>
+                            <td>Nome completo:<input type="text" name="nome" /></td>
+                        </tr>
+                        <tr>
+                            <td>Data de nascimento:<input type="datetime" name="idade" /></td>
+                        </tr>
+                        <tr>
+                            <td>Email para contato:<break><input type="email" name="email" /></td>
+                        </tr>
+                        <tr>
+                            <td>Senha:<input type="password" name="senha" /></td>
+                        </tr>
+                        <tr>
+                 </font>
+                        <td colspan="2"><input type="submit" value="Já tenho conta" /><input type="submit" value="Cadastrar" /></td>
+
+                         </tr>
+                    </table>
+
+                   </form>
+            
+        </section>
+
+
+       
+
+        <footer>
+            <section class=" controles">
+                <button id="acender"> <b>Modo Claro</b></button>
+                <button id="escuro"> <b> Modo Escuro</b></button>
+            </section>
+        </footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#acender").click(function () {
+            $("body").removeClass("escuro");
+            $("body").addClass("claro");
+        });
+        $("#escuro").click(function () {
+            $("body").removeClass("claro");
+            $("body").addClass("escuro");
+        });
+    });
+</script>
+
+
+</html>
